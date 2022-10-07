@@ -22,7 +22,7 @@ public class TipCalculator {
     }
 
     public double tipAmount(){
-        return totalBillBeforeTip * (tipPercentage/100);
+        return totalBillBeforeTip * ((double)tipPercentage/100);
     }
 
     public double totalBill(){
