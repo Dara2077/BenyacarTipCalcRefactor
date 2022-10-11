@@ -19,6 +19,7 @@ public class TipCalculatorRunner {
                 myCalc.addMeal(mealCost);
                 i++;
             }
+            System.out.println("-------------------------");
             System.out.println("Total Bill Before Tip: " + roundNumber.format(myCalc.totalBillBeforeTip));
             System.out.println("Tip Percentage: " + myCalc.tipPercentage);
             System.out.println("Total Tip: " + roundNumber.format(myCalc.tipAmount()));
